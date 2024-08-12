@@ -1,0 +1,28 @@
+Part 1 Overview:
+
+1. What is synchronous programming?
+2. What is Asynchronous programming?
+3. Call backs
+4. Call back hells
+5. Promises
+6. Promises (Async/Await)
+
+
+Synchronous programming: It follows the strict set of sequences. It follows each steps in order. Wait for each task to complete before moving to another task.
+
+
+Aynch: It is a process that allows an application to run a second set of instructions while focusing on it's primary or basic process. It has several benefits including improved application performance, wide application to different coding languages, and better user experience. 
+
+
+Promise: It is an assurance or guarantee that something will happen in the future. A person promise another person a specific outcome or result. A promise is an object that holds the future value of an async operation. Example. Requesting some data from server, the promise , promise us to get data which we can use in future.
+
+State of promise
+Pending- Result is not ready or waiting for async operation.
+Fulfilled - depending upon success result to fulfilled 
+Rejected - depend upon fail result to rejected.
+
+Consume the promise using then and catch
+
+
+Promise.all: We are validating multiple promise at once. We pass promise in array. All promise need to be resolved to result in fulfilled or will considered as Rejected
+Promise.all([prom1,prom2,prom3]).then(data => console.log(data[0], data[1]))
