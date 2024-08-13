@@ -29,3 +29,6 @@ Promise.all([prom1,prom2,prom3]).then(data => console.log(data[0], data[1]))
 
 
 Async await is the syntactic sugar build on top or promise to make it easier to work with async operation. Async function will return a promise and we can use await keyword inside that function for promise to resolve. 
+
+
+Async programming Part 2
